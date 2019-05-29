@@ -27,7 +27,7 @@ def fibonacci(n):
 def output_all_to_screen(sequence):
     print("n", "Fibonacci Sequence")
     for i in range(0, len(sequence)):
-        print(i+1, sequence[i])
+        print("{0} {1}".format(i+1, sequence[i]))
 
 
 def output_all_to_file(sequence, filename):
@@ -61,7 +61,10 @@ def main():
     # Uncomment line below to use
     # output_all_to_screen(f)
 
-    output_all_to_file(f, "fib_100.txt")
+    # Output the sequence to a txt file
+    # Uncomment the two lines below to use
+    # filename = "fib_100.txt"
+    # output_all_to_file(f, filename)
 
     # Print the (n)th term of the sequence
     n = 99
