@@ -8,6 +8,9 @@
 #
 # The number of terms is specified in the main() function as number_of_terms
 # The nth term can be examined by altering the variable n in the main() function
+#
+# https://github.com/martinluckett/MathsPlay
+# Martin Luckett 2019
 
 import time
 
@@ -17,7 +20,9 @@ error_str = "Error: {0}"
 def fibonacci(n):
     # generate fibonacci sequence to the (n)th term
     sequence = []
+    # Set the first two terms to 0 and 1
     a, b = 0, 1
+    # Generate the sequence by adding the two previous terms
     while len(sequence) < n:
         sequence.append(b)
         a, b = b, a+b
@@ -52,7 +57,9 @@ def nth_term(sequence, n):
 
 
 def main():
+    # Set the number of terms to be calculated
     number_of_terms = 100
+
     start_time = time.time()
     f = fibonacci(number_of_terms)
     run_time = str(time.time() - start_time)
