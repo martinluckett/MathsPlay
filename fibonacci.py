@@ -30,9 +30,14 @@ def main():
     start_time = time.time()
     f = fibonacci(100)
     run_time = str(time.time() - start_time)
+
+    # Note: for long sequences, outputting the list to the screen can slow things down considerably
     output_all(f)
+
+    # Print the (n)th term of the sequence
     n = 99
     print("The {0}th term is {1}".format(n, nth_term(f, n)))
+
     print("run time: {0}".format(run_time))
 
 
