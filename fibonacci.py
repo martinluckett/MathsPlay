@@ -9,6 +9,9 @@
 # The number of terms is specified in the main() function as number_of_terms
 # The nth term can be examined by altering the variable n in the main() function
 #
+# Update: generalised sequence generator so that it can start with any two terms to generate other sequences
+# e.g. Lucas numbers which start with 2 and 1.
+#
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
@@ -17,11 +20,11 @@ import time
 error_str = "Error: {0}"
 
 
-def fibonacci(n):
-    # generate fibonacci sequence to the (n)th term
+def sequence(n, first_term, second_term):
+    # generate sequence to the (n)th term
     sequence = []
-    # Set the first two terms to 0 and 1
-    a, b = 0, 1
+    # Set the first two terms
+    a, b = first_term, second_term
     # Generate the sequence by adding the two previous terms
     while len(sequence) < n:
         sequence.append(b)
@@ -30,7 +33,7 @@ def fibonacci(n):
 
 
 def output_all_to_screen(sequence):
-    print("n", "Fibonacci Sequence")
+    print("n", "Sequence")
     for i in range(0, len(sequence)):
         print("{0} {1}".format(i+1, sequence[i]))
 
@@ -61,12 +64,12 @@ def main():
     number_of_terms = 100
 
     start_time = time.time()
-    f = fibonacci(number_of_terms)
+    f = sequence(number_of_terms, 0, 1)
     run_time = str(time.time() - start_time)
 
     # Note: for long sequences, outputting the list to the screen can slow things down considerably
     # Uncomment line below to use
-    # output_all_to_screen(f)
+    output_all_to_screen(f)
 
     # Output the sequence to a txt file
     # Uncomment the two lines below to use
