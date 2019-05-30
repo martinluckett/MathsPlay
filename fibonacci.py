@@ -22,27 +22,27 @@ error_str = "Error: {0}"
 
 def sequence(n, first_term, second_term):
     # generate sequence to the (n)th term
-    sequence = []
+    seq = []
     # Set the first two terms
     a, b = first_term, second_term
     # Generate the sequence by adding the two previous terms
-    while len(sequence) < n:
-        sequence.append(b)
+    while len(seq) < n:
+        seq.append(b)
         a, b = b, a+b
-    return sequence
+    return seq
 
 
-def output_all_to_screen(sequence):
+def output_all_to_screen(seq):
     print("n", "Sequence")
-    for i in range(0, len(sequence)):
-        print("{0} {1}".format(i+1, sequence[i]))
+    for i in range(0, len(seq)):
+        print("{0} {1}".format(i+1, seq[i]))
 
 
-def output_all_to_file(sequence, filename):
+def output_all_to_file(seq, filename):
     try:
         with open(filename, "w") as file:
-            for i in range(0, len(sequence)):
-                fib_str = "{0} {1}\n".format(i+1, sequence[i])
+            for i in range(0, len(seq)):
+                fib_str = "{0} {1}\n".format(i+1, seq[i])
                 file.write(fib_str)
     except IOError as e:
         print(error_str.format(e))
@@ -50,9 +50,9 @@ def output_all_to_file(sequence, filename):
         print(error_str.format(e))
 
 
-def nth_term(sequence, n):
+def nth_term(seq, n):
     try:
-        result = sequence[n-1]
+        result = seq[n-1]
     except IndexError as e:
         print(error_str.format(e))
     else:
@@ -69,7 +69,7 @@ def main():
 
     # Note: for long sequences, outputting the list to the screen can slow things down considerably
     # Uncomment line below to use
-    output_all_to_screen(f)
+    # output_all_to_screen(f)
 
     # Output the sequence to a txt file
     # Uncomment the two lines below to use
