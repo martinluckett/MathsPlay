@@ -64,24 +64,43 @@ def main():
     # Set the number of terms to be calculated
     number_of_terms = 100
 
-    start_time = time.time()
-    seq = sequence(number_of_terms, 0, 1)
-    run_time = str(time.time() - start_time)
+    # Fibonacci Numbers
+    fib_start_time = time.time()
+    fib_seq = sequence(number_of_terms, 0, 1)
+    fib_run_time = str(time.time() - fib_start_time)
 
     # Note: for long sequences, outputting the list to the screen can slow things down considerably
-    # Uncomment line below to use
-    # output_all_to_screen(f)
+    # Uncomment lines below to use
+    print("\nFibonacci Numbers")
+    output_all_to_screen(fib_seq)
 
     # Output the sequence to a txt file
     # Uncomment the two lines below to use
     # filename = "fib_100.txt"
-    # output_all_to_file(seq, filename)
+    # output_all_to_file(fib_seq, filename)
+
+    # Lucas Numbers
+    luc_start_time = time.time()
+    luc_seq = sequence(number_of_terms, 2, 1)
+    luc_run_time = str(time.time() - luc_start_time)
+
+    print("\nLucas Numbers")
+    output_all_to_screen(luc_seq)
+    # output_all_to_file(luc_seq, "luc_100.txt")
+
+    # Print run times of sequence calculations
+    run_time_str = "{0} numbers run time: {1} seconds"
+
+    print(run_time_str.format("Fibonacci", fib_run_time))
+    print(run_time_str.format("Lucas", luc_run_time))
 
     # Print the (n)th term of the sequence
-    n = 99
-    print("The {0}th term is {1}".format(n, nth_term(seq, n)))
+    n = 100
 
-    print("run time: {0} seconds".format(run_time))
+    nth_term_str = "The {0}th term of the {1} numbers is {2}"
+
+    print(nth_term_str.format(n, "Fibonacci", nth_term(fib_seq, n)))
+    print(nth_term_str.format(n, "Lucas", nth_term(luc_seq, n)))
 
 
 if __name__ == "__main__":
