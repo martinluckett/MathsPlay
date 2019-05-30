@@ -42,8 +42,8 @@ def output_all_to_file(seq, filename):
     try:
         with open(filename, "w") as file:
             for i in range(0, len(seq)):
-                fib_str = "{0} {1}\n".format(i+1, seq[i])
-                file.write(fib_str)
+                seq_str = "{0} {1}\n".format(i+1, seq[i])
+                file.write(seq_str)
     except IOError as e:
         print(error_str.format(e))
     except TypeError as e:
