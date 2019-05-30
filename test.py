@@ -1,10 +1,13 @@
-def test(number):
-    return number
+from fibonacci import fibonacci
+from lucas import lucas
 
 
 def main():
-    a = test(42)
-    print(a)
+    fib = fibonacci(100)
+    luc = lucas(100)
+
+    print("Fibonacci Numbers:\n ", fib)
+    print("Lucas Numbers:\n", luc)
 
 
 if __name__ == "__main__":

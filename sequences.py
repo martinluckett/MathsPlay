@@ -19,7 +19,8 @@ def sequence(n, first_term, second_term):
     return seq
 
 
-def output_all_to_screen(seq):
+def output_all_to_screen(seq, sequence_str):
+    print("\n{0} Sequence".format(sequence_str))
     print("n", "Sequence")
     for i in range(0, len(seq)):
         print("{0} {1}".format(i, seq[i]))
