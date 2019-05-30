@@ -25,8 +25,9 @@ def sequence(n, first_term, second_term):
     seq = []
     # Set the first two terms
     a, b = first_term, second_term
+    seq.append(a)
     # Generate the sequence by adding the two previous terms
-    while len(seq) < n:
+    while len(seq) < n+1:
         seq.append(b)
         a, b = b, a+b
     return seq
@@ -35,14 +36,14 @@ def sequence(n, first_term, second_term):
 def output_all_to_screen(seq):
     print("n", "Sequence")
     for i in range(0, len(seq)):
-        print("{0} {1}".format(i+1, seq[i]))
+        print("{0} {1}".format(i, seq[i]))
 
 
 def output_all_to_file(seq, filename):
     try:
         with open(filename, "w") as file:
             for i in range(0, len(seq)):
-                seq_str = "{0} {1}\n".format(i+1, seq[i])
+                seq_str = "{0} {1}\n".format(i, seq[i])
                 file.write(seq_str)
     except IOError as e:
         print(error_str.format(e))
@@ -52,7 +53,7 @@ def output_all_to_file(seq, filename):
 
 def nth_term(seq, n):
     try:
-        result = seq[n-1]
+        result = seq[n]
     except IndexError as e:
         print(error_str.format(e))
     else:
