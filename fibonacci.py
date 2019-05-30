@@ -65,7 +65,7 @@ def main():
     number_of_terms = 100
 
     start_time = time.time()
-    f = sequence(number_of_terms, 0, 1)
+    seq = sequence(number_of_terms, 0, 1)
     run_time = str(time.time() - start_time)
 
     # Note: for long sequences, outputting the list to the screen can slow things down considerably
@@ -75,11 +75,11 @@ def main():
     # Output the sequence to a txt file
     # Uncomment the two lines below to use
     # filename = "fib_100.txt"
-    # output_all_to_file(f, filename)
+    # output_all_to_file(seq, filename)
 
     # Print the (n)th term of the sequence
     n = 99
-    print("The {0}th term is {1}".format(n, nth_term(f, n)))
+    print("The {0}th term is {1}".format(n, nth_term(seq, n)))
 
     print("run time: {0} seconds".format(run_time))
 
