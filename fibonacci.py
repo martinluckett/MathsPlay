@@ -9,7 +9,7 @@
 # The number of terms is specified in the main() function as number_of_terms
 #
 #
-# Update: created generalised sequence generator and moved to sequence.py
+# Update: created generalised sequence generator and moved to sequences.py
 #
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
@@ -21,6 +21,7 @@ from sequences import nth_term
 from sequences import run_time_str
 from sequences import filename_str
 from sequences import nth_term_str
+
 import time
 
 
