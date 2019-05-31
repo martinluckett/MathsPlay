@@ -12,8 +12,8 @@
 from Sequences.sequences import sequence
 
 
-def lucas(number_of_terms, first_term=2, second_term=1):
-    seq = sequence(number_of_terms, first_term, second_term)
+def lucas(number_of_terms):
+    seq = sequence(number_of_terms, first_term=2, second_term=1)
     return seq
 
 
@@ -22,7 +22,7 @@ def main():
     number_of_terms = 100
 
     # Call the sequence function with the lucas parameters
-    f = lucas(number_of_terms, 2, 1)
+    f = lucas(number_of_terms)
 
     print(f)
 

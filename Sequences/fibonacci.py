@@ -14,8 +14,8 @@
 from Sequences.sequences import sequence
 
 
-def fibonacci(number_of_terms, first_term=0, second_term=1):
-    seq = sequence(number_of_terms, first_term, second_term)
+def fibonacci(number_of_terms):
+    seq = sequence(number_of_terms, first_term=0, second_term=1)
     return seq
 
 
@@ -24,7 +24,7 @@ def main():
     number_of_terms = 100
 
     # Call the sequence function with the fibonacci parameters
-    f = fibonacci(number_of_terms, 0, 1)
+    f = fibonacci(number_of_terms)
 
     print(f)
 
