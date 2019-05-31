@@ -1,5 +1,5 @@
-from fibonacci import fibonacci
-from lucas import lucas
+from Sequences.fibonacci import fibonacci
+from Sequences.lucas import lucas
 
 
 def main():
