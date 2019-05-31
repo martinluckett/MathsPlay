@@ -1,4 +1,15 @@
 # sequences.py
+#
+# create a sequence such with initial terms: first_term and second_term
+# generate new terms by:
+#
+# new term = (first_term)*(first_term_multiplier) + (second_term)*(second_term_multiplier) + constant_factor
+#
+# default multiplier is 1
+# default constant is 0
+#
+# https://github.com/martinluckett/MathsPlay
+# Martin Luckett 2019
 
 
 def sequence(n, first_term,
