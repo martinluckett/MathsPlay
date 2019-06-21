@@ -3,9 +3,10 @@
 # create a sequence such with initial terms: first_term and second_term
 # generate new terms by:
 #
-# new term = (first_term)*(first_term_multiplier) + (second_term)*(second_term_multiplier) + constant_factor
+# new term = (first_term)*(first_term_multiplier) + (second_term**(exponent))*(second_term_multiplier) + constant_factor
 #
 # default multiplier is 1
+# default exponent is 1
 # default constant is 0
 #
 # https://github.com/martinluckett/MathsPlay
@@ -16,6 +17,7 @@ def sequence(n, first_term,
              second_term,
              multiplier_first_term=1,
              multiplier_second_term=1,
+             exponent_second_term=1,
              constant_factor=0):
 
     # Create an empty list to hold the results
@@ -24,11 +26,11 @@ def sequence(n, first_term,
     # Set the first two terms
     a, b = first_term, second_term
 
-    # Set the multipliers for the terms (default = 1)
-    c, d = multiplier_first_term, multiplier_second_term
+    # Set the multipliers and exponents for the terms (default = 1)
+    c, d, e = multiplier_first_term, multiplier_second_term, exponent_second_term
 
     # Set the constant to be added (default = 0)
-    e = constant_factor
+    f = constant_factor
 
     # Add the first term to the sequence result
     seq.append(a)
@@ -38,7 +40,7 @@ def sequence(n, first_term,
         # add b to the list
         seq.append(b)
         # new a = old b, new b = calculated term
-        a, b = b, (c*a)+(d*b) + e
+        a, b = b, (c*a)+(d*(b**e)) + f
 
     # Return the sequence of n terms
     return seq
