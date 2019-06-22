@@ -3,6 +3,7 @@ from Sequences.lucas import lucas
 from Sequences.mersenne import mersenne
 from mathsConstants.goldenratio import phi
 from mathsConstants.goldenratio_fibonacci import gr_fibonacci
+from Euclid.gcd import gcd
 
 
 def tests():
@@ -27,11 +28,16 @@ def tests():
     # higher n gives greater accuracy
     gr_fib = gr_fibonacci(n=100, precision=100)
 
+    # Greatest Common Divisor
+    # Arguments are the two numbers for which the gcd needs to be found
+    gcd(252, 105)
+
     print("Fibonacci Numbers:\n ", fib)
-    print("Lucas Numbers:\n", luc)
-    print("Mersenne Numbers:\n", mer)
-    print("Golden Ratio:\n", gr)
-    print("Golden Ratio using Fibonacci Numbers:\n", gr_fib)
+    print("\nLucas Numbers:\n", luc)
+    print("\nMersenne Numbers:\n", mer)
+    print("\nGolden Ratio:\n", gr)
+    print("\nGolden Ratio using Fibonacci Numbers:\n", gr_fib)
+    print("\nGreatest Common Divisor of {0} and {1} is {2}\n".format(252, 105, gcd(252, 105)))
 
 
 def main():
