@@ -1,5 +1,6 @@
 # goldenratio.py
 #
+#  Algebraic form of the golden ratio
 #  PHI = 1/2 * (1 + SQRT(5))
 #
 # https://github.com/martinluckett/MathsPlay

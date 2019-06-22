@@ -1,6 +1,7 @@
 from Sequences.fibonacci import fibonacci
 from Sequences.lucas import lucas
 from Sequences.mersenne import mersenne
+from Sequences.pell import pell
 from mathsConstants.goldenratio import phi
 from mathsConstants.goldenratio_fibonacci import gr_fibonacci
 from Euclid.gcd import gcd
@@ -20,6 +21,10 @@ def tests():
     # Mersenne Numbers
     # argument is the number of terms
     mer = mersenne(100)
+
+    # Pell Numbers
+    # argument is the number of terms
+    pel = pell(100)
 
     # Golden Ratio
     # argument is the number of decimal places
@@ -44,6 +49,7 @@ def tests():
     print("Fibonacci Numbers:\n ", fib)
     print("\nLucas Numbers:\n", luc)
     print("\nMersenne Numbers:\n", mer)
+    print("\nPell Numbers:\n", pel)
     print("\nGolden Ratio:\n", gr)
     print("\nGolden Ratio using Fibonacci Numbers:\n", gr_fib)
     print("\nGreatest Common Divisor of {0} and {1} is {2} (using subtractive method)\n"
