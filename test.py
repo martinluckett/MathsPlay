@@ -6,12 +6,23 @@ from GoldenRatio.goldenratio_fibonacci import gr_fibonacci
 
 
 def tests():
-    fib = fibonacci(100)  # argument is the number of terms
-    luc = lucas(100)  # argument is the number of terms
-    mer = mersenne(100)  # argument is the number of terms
-    gr = phi(100)  # argument is the number of decimal places
+    # Fibonacci Sequence.  Argument is the number of terms
+    fib = fibonacci(100)
+
+    # Lucas Numbers. Argument is the number of terms
+    luc = lucas(100)
+
+    # Mersenne Numbers. Argument is the number of terms
+    mer = mersenne(100)
+
+    # Golden Ratio. Argument is the number of decimal places
+    gr = phi(100)
+
+    # Golden Ratio using Fibonacci Numbers
+    # arguments are (nth fibonacci term to use, number of decimal places)
+    # higher n gives greater accuracy
     gr_fib = gr_fibonacci(n=100, precision=100)
-    # arguments are (nth fibonacci term to use, number of decimal places) higher n gives greater accuracy
+
 
     print("Fibonacci Numbers:\n ", fib)
     print("Lucas Numbers:\n", luc)
