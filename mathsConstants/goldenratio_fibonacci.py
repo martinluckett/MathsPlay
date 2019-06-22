@@ -7,7 +7,7 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Sequences.fibonacci import fibonacci
+from sequences.fibonacci import fibonacci
 from decimal import *
 
 

@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0666f584-f37c-4704-9998-d5f2b318f8c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldenRatio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathsConstants/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldenRatio/goldenratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathsConstants/goldenratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldenRatio/goldenratio_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/fib_100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/fib_100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/fib_10000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/fib_10000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/luc_100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/luc_100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/lucas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/mersenne.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/mersenne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -26,7 +37,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoldenRatio/goldenratio.py">
+        <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
@@ -35,7 +46,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoldenRatio/goldenratio_fibonacci.py">
+        <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
@@ -47,7 +58,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sequences/mersenne.py">
+        <entry file="file://$PROJECT_DIR$/sequences/mersenne.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -56,7 +67,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sequences/lucas.py">
+        <entry file="file://$PROJECT_DIR$/sequences/lucas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -65,7 +76,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sequences/sequences.py">
+        <entry file="file://$PROJECT_DIR$/sequences/sequence.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
@@ -103,6 +114,8 @@
         <option value="$PROJECT_DIR$/GoldenRatio/goldenratio_fibonnaci.py" />
         <option value="$PROJECT_DIR$/GoldenRatio/goldenratio_fibonacci.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Sequences/sequence.py" />
+        <option value="$PROJECT_DIR$/sequences/mersenne.py" />
       </list>
     </option>
   </component>
@@ -157,12 +170,12 @@
             <path>
               <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
               <item name="MathsPlay" type="462c0819:PsiDirectoryNode" />
-              <item name="GoldenRatio" type="462c0819:PsiDirectoryNode" />
+              <item name="mathsConstants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
               <item name="MathsPlay" type="462c0819:PsiDirectoryNode" />
-              <item name="Sequences" type="462c0819:PsiDirectoryNode" />
+              <item name="sequences" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +348,7 @@
       <workItem from="1559041464055" duration="14583000" />
       <workItem from="1559197506435" duration="19330000" />
       <workItem from="1561149676420" duration="171000" />
-      <workItem from="1561151026236" duration="7825000" />
+      <workItem from="1561151026236" duration="8715000" />
     </task>
     <task id="LOCAL-00001" summary="test update">
       <created>1559041594218</created>
@@ -554,15 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561201050407</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updated comments for clarity">
+      <created>1561201167641</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1561201167641</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41909000" />
+    <option name="totallyTimeSpent" value="42799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="45" width="1400" height="833" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -644,7 +663,7 @@
     <SUITE FILE_PATH="coverage/MathsPlay$goldenratio.coverage" NAME="goldenratio Coverage Results" MODIFIED="1561195287811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MathsPlay$mersenne.coverage" NAME="mersenne Coverage Results" MODIFIED="1559285265683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sequences" />
     <SUITE FILE_PATH="coverage/MathsPlay$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1559285039052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561201151464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561203821364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -660,53 +679,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/fib_10000.txt">
+    <entry file="file://$PROJECT_DIR$/sequences/fib_10000.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/fib_100.txt">
+    <entry file="file://$PROJECT_DIR$/sequences/fib_100.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FibType.py" />
     <entry file="file://$PROJECT_DIR$/Sequence.py" />
-    <entry file="file://$PROJECT_DIR$/Sequences/__init__.py">
+    <entry file="file://$PROJECT_DIR$/sequences/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/fibonacci.py">
+    <entry file="file://$PROJECT_DIR$/sequences/fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/mersenne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/lucas.py">
+    <entry file="file://$PROJECT_DIR$/sequences/lucas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/sequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenRatio/goldenratio.py">
+    <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenRatio/goldenratio_fibonacci.py">
+    <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
@@ -716,10 +721,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sequences/sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequences/mersenne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
