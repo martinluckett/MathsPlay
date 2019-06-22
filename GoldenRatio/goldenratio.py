@@ -5,7 +5,6 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-import math
 from decimal import *
 
 

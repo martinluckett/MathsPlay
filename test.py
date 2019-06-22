@@ -5,10 +5,10 @@ from GoldenRatio.goldenratio import phi
 
 
 def sequence_test():
-    fib = fibonacci(100)
-    luc = lucas(100)
-    mer = mersenne(100)
-    gr = phi(100)
+    fib = fibonacci(100)  # argument is the number of terms
+    luc = lucas(100)  # argument is the number of terms
+    mer = mersenne(100)  # argument is the number of terms
+    gr = phi(100)  # argument is the number of decimal places
 
     print("Fibonacci Numbers:\n ", fib)
     print("Lucas Numbers:\n", luc)
