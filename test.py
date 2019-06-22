@@ -6,16 +6,20 @@ from GoldenRatio.goldenratio_fibonacci import gr_fibonacci
 
 
 def tests():
-    # Fibonacci Sequence.  Argument is the number of terms
+    # Fibonacci Numbers
+    # argument is the number of terms
     fib = fibonacci(100)
 
-    # Lucas Numbers. Argument is the number of terms
+    # Lucas Numbers
+    # argument is the number of terms
     luc = lucas(100)
 
-    # Mersenne Numbers. Argument is the number of terms
+    # Mersenne Numbers
+    # argument is the number of terms
     mer = mersenne(100)
 
-    # Golden Ratio. Argument is the number of decimal places
+    # Golden Ratio
+    # argument is the number of decimal places
     gr = phi(100)
 
     # Golden Ratio using Fibonacci Numbers
