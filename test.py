@@ -10,7 +10,8 @@ def tests():
     luc = lucas(100)  # argument is the number of terms
     mer = mersenne(100)  # argument is the number of terms
     gr = phi(100)  # argument is the number of decimal places
-    gr_fib = gr_fibonacci(1000, 100)  # arguments are (nth fibonacci term to use, number of decimal places)
+    gr_fib = gr_fibonacci(n=100, precision=100)
+    # arguments are (nth fibonacci term to use, number of decimal places) higher n gives greater accuracy
 
     print("Fibonacci Numbers:\n ", fib)
     print("Lucas Numbers:\n", luc)
