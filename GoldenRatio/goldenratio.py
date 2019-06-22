@@ -1,30 +1,24 @@
 # goldenratio.py
 #
+#  PHI = 1/2 * (1 + SQRT(5))
 #
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
 import math
-from Sequences import fibonacci
+from decimal import *
 
-error_str = "Error: {0}"
 
-def GR_by_fibonacci():
-    pass
-
-def GR_numerical():
-    result = (1 + math.sqrt(5))/2.0
+def phi(precision=20):
+    # Using Decimal
+    getcontext().prec = precision
+    result = (Decimal(0.5)*(Decimal(1) + Decimal(5).sqrt()))
     return result
 
 
-
 def main():
-    GR = GR_numerical()
-    print(GR)
-
-
-
-
+    gr = phi(1000)
+    print(gr)
 
 
 if __name__ == "__main__":
