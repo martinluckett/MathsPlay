@@ -1,7 +1,7 @@
 # mersenne.py
 # f(x) = 2x + 1
 
-from Sequences.sequences import sequence
+from sequences.sequence import sequence
 
 
 def mersenne(number_of_terms):

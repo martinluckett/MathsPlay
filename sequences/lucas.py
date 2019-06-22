@@ -9,7 +9,7 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Sequences.sequences import sequence
+from sequences.sequence import sequence
 
 
 def lucas(number_of_terms):

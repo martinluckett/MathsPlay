@@ -9,12 +9,12 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from sequences.sequence import sequence
+from sequences.sequence import seq
 
 
 def lucas(number_of_terms):
-    seq = sequence(number_of_terms, first_term=2, second_term=1)
-    return seq
+    result = seq(number_of_terms, first_term=2, second_term=1)
+    return result
 
 
 def main():

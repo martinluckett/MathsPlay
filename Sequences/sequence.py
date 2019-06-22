@@ -1,4 +1,4 @@
-# sequence.py
+# sequences.py
 #
 # create a sequence such with initial terms: first_term and second_term
 # generate new terms by:
@@ -13,15 +13,12 @@
 # Martin Luckett 2019
 
 
-def sequence(n, first_term,
-             second_term,
-             multiplier_first_term=1,
-             multiplier_second_term=1,
-             exponent_second_term=1,
-             constant_factor=0):
+def seq(n, first_term, second_term,
+        multiplier_first_term=1, multiplier_second_term=1,
+        exponent_second_term=1, constant_factor=0):
 
     # Create an empty list to hold the results
-    seq = []
+    seq_list = []
 
     # Set the first two terms
     a, b = first_term, second_term
@@ -33,16 +30,16 @@ def sequence(n, first_term,
     f = constant_factor
 
     # Add the first term to the sequence result
-    seq.append(a)
+    seq_list.append(a)
 
     # Generate the sequence until the length of the sequence is n terms
-    while len(seq) < n+1:
+    while len(seq_list) < n+1:
         # add b to the list
-        seq.append(b)
+        seq_list.append(b)
         # new a = old b, new b = calculated term
         a, b = b, (c*a)+(d*(b**e)) + f
 
     # Return the sequence of n terms
-    return seq
+    return seq_list
 
 

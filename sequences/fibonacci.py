@@ -6,12 +6,12 @@
 # F(0) = 0, F(1) = 1
 # F(n) = F(n-1) + F(n-2), for n > 1
 #
-# Update: created generalised sequence generator and moved to sequences.py
+# Update: created generalised sequence generator and moved to sequence.py
 #
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Sequences.sequences import sequence
+from sequences.sequence import sequence
 
 
 def fibonacci(number_of_terms):
