@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0666f584-f37c-4704-9998-d5f2b318f8c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Euclid/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Euclid/gcd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primes/coprime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Euclid/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Euclid/gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="222">
+              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/primes/coprime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -35,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Euclid/gcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -78,9 +89,10 @@
         <option value="$PROJECT_DIR$/Sequences/lucas.py" />
         <option value="$PROJECT_DIR$/Sequences/fibonacci.py" />
         <option value="$PROJECT_DIR$/Sequences/mersenne.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py" />
         <option value="$PROJECT_DIR$/Euclid/gcd.py" />
+        <option value="$PROJECT_DIR$/primes/coprime.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -111,6 +123,11 @@
               <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
               <item name="MathsPlay" type="462c0819:PsiDirectoryNode" />
               <item name="mathsConstants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MathsPlay" type="462c0819:PsiDirectoryNode" />
+              <item name="primes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
@@ -184,7 +201,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gcd">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="coprime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MathsPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/primes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/primes/coprime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MathsPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,28 +290,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mersenne" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MathsPlay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sequences" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sequences/mersenne.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MathsPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gcd" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.coprime" />
+        <item itemvalue="Python.gcd" />
         <item itemvalue="Python.goldenratio_fibonacci" />
         <item itemvalue="Python.goldenratio" />
-        <item itemvalue="Python.mersenne" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +338,7 @@
       <workItem from="1561151026236" duration="8715000" />
       <workItem from="1561217192303" duration="524000" />
       <workItem from="1561218008553" duration="89000" />
-      <workItem from="1561218456355" duration="757000" />
+      <workItem from="1561218456355" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="test update">
       <created>1559041594218</created>
@@ -554,28 +571,41 @@
       <option name="project" value="LOCAL" />
       <updated>1561218528566</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added GCD">
+      <created>1561226379006</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1561226379006</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added GCD to tests">
+      <created>1561226896741</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1561226896741</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44169000" />
+    <option name="totallyTimeSpent" value="46267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="45" width="1400" height="833" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32928476" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.32928476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073636" side_tool="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -650,16 +680,19 @@
     <MESSAGE value="added golden ratio using fibonacci sequence" />
     <MESSAGE value="updated comments for clarity" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Added GCD" />
+    <MESSAGE value="Added GCD to tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GCD to tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MathsPlay$lucas.coverage" NAME="lucas Coverage Results" MODIFIED="1559284552537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MathsPlay$goldenratio_fibonacci.coverage" NAME="goldenratio_fibonacci Coverage Results" MODIFIED="1561200526232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GoldenRatio" />
+    <SUITE FILE_PATH="coverage/MathsPlay$coprime.coverage" NAME="coprime Coverage Results" MODIFIED="1561228220928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primes" />
     <SUITE FILE_PATH="coverage/MathsPlay$goldenratio.coverage" NAME="goldenratio Coverage Results" MODIFIED="1561195287811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MathsPlay$mersenne.coverage" NAME="mersenne Coverage Results" MODIFIED="1559285265683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sequences" />
     <SUITE FILE_PATH="coverage/MathsPlay$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1559285039052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561218512306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MathsPlay$gcd.coverage" NAME="gcd Coverage Results" MODIFIED="1561226278696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euclid" />
+    <SUITE FILE_PATH="coverage/MathsPlay$gcd.coverage" NAME="gcd Coverage Results" MODIFIED="1561227341380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euclid" />
+    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561228392103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -711,16 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -740,8 +763,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Euclid/gcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primes/coprime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
