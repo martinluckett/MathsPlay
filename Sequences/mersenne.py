@@ -1,12 +1,12 @@
 # mersenne.py
 # f(x) = 2x + 1
 
-from sequences.sequence import seq
+from Sequences.sequence import sequence
 
 
 def mersenne(number_of_terms):
-    result = seq(number_of_terms, 0, 1, multiplier_first_term=0, multiplier_second_term=2, constant_factor=1)
-    return result
+    seq = sequence(number_of_terms, 0, 1, multiplier_first_term=0, multiplier_second_term=2, constant_factor=1)
+    return seq
 
 
 def main():

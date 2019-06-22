@@ -1,6 +1,6 @@
-from sequences.fibonacci import fibonacci
-from sequences.lucas import lucas
-from sequences.mersenne import mersenne
+from Sequences.fibonacci import fibonacci
+from Sequences.lucas import lucas
+from Sequences.mersenne import mersenne
 from mathsConstants.goldenratio import phi
 from mathsConstants.goldenratio_fibonacci import gr_fibonacci
 

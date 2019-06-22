@@ -13,7 +13,7 @@
 # Martin Luckett 2019
 
 
-def seq(n, first_term, second_term,
+def sequence(n, first_term, second_term,
         multiplier_first_term=1, multiplier_second_term=1,
         exponent_second_term=1, constant_factor=0):
 
