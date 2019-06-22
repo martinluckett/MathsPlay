@@ -5,7 +5,7 @@ from GoldenRatio.goldenratio import phi
 from GoldenRatio.goldenratio_fibonacci import gr_fibonacci
 
 
-def sequence_test():
+def tests():
     fib = fibonacci(100)  # argument is the number of terms
     luc = lucas(100)  # argument is the number of terms
     mer = mersenne(100)  # argument is the number of terms
@@ -20,7 +20,7 @@ def sequence_test():
 
 
 def main():
-    sequence_test()
+    tests()
 
 
 if __name__ == "__main__":
