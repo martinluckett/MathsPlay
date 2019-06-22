@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0666f584-f37c-4704-9998-d5f2b318f8c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequences/fibonacci.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequences/lucas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequences/mersenne.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequences/seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequences/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequences/lucas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequences/mersenne.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequences/mersenne.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sequences/sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequences/sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequences/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequences/lucas.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/lucas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequences/mersenne.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/mersenne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -36,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -44,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="210">
               <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#236#277#0" expanded="true" />
@@ -54,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sequences/mersenne.py">
+        <entry file="file://$PROJECT_DIR$/Sequences/mersenne.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -63,28 +59,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sequences/fibonacci.py">
+        <entry file="file://$PROJECT_DIR$/Sequences/fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sequences/lucas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sequences/sequence.py">
+        <entry file="file://$PROJECT_DIR$/Sequences/lucas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sequences/sequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -111,19 +107,19 @@
         <option value="$PROJECT_DIR$/fibonacci.py" />
         <option value="$PROJECT_DIR$/lucas.py" />
         <option value="$PROJECT_DIR$/sequences.py" />
-        <option value="$PROJECT_DIR$/Sequences/lucas.py" />
-        <option value="$PROJECT_DIR$/Sequences/fibonacci.py" />
-        <option value="$PROJECT_DIR$/Sequences/mersenne.py" />
         <option value="$PROJECT_DIR$/Sequences/sequences.py" />
         <option value="$PROJECT_DIR$/GoldenRatio/goldenratio.py" />
         <option value="$PROJECT_DIR$/GoldenRatio/goldenratio_fibonnaci.py" />
         <option value="$PROJECT_DIR$/GoldenRatio/goldenratio_fibonacci.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/Sequences/sequence.py" />
         <option value="$PROJECT_DIR$/sequences/mersenne.py" />
         <option value="$PROJECT_DIR$/sequences/fibonacci.py" />
         <option value="$PROJECT_DIR$/sequences/sequence.py" />
         <option value="$PROJECT_DIR$/sequences/lucas.py" />
+        <option value="$PROJECT_DIR$/Sequences/sequence.py" />
+        <option value="$PROJECT_DIR$/Sequences/lucas.py" />
+        <option value="$PROJECT_DIR$/Sequences/fibonacci.py" />
+        <option value="$PROJECT_DIR$/Sequences/mersenne.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -153,7 +149,7 @@
             <path>
               <item name="MathsPlay" type="b2602c69:ProjectViewProjectNode" />
               <item name="MathsPlay" type="462c0819:PsiDirectoryNode" />
-              <item name="sequences" type="462c0819:PsiDirectoryNode" />
+              <item name="Sequences" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,6 +354,7 @@
       <workItem from="1561149676420" duration="171000" />
       <workItem from="1561151026236" duration="8715000" />
       <workItem from="1561217192303" duration="524000" />
+      <workItem from="1561218008553" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="test update">
       <created>1559041594218</created>
@@ -587,13 +584,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43323000" />
+    <option name="totallyTimeSpent" value="43412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="45" width="1400" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -703,17 +700,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/fib_10000.txt">
+    <entry file="file://$PROJECT_DIR$/Sequences/fib_10000.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/fib_100.txt">
+    <entry file="file://$PROJECT_DIR$/Sequences/fib_100.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FibType.py" />
     <entry file="file://$PROJECT_DIR$/Sequence.py" />
+    <entry file="file://$PROJECT_DIR$/Sequences/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathsConstants/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="210">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#236#277#0" expanded="true" />
@@ -721,54 +731,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
+    <entry file="file://$PROJECT_DIR$/Sequences/lucas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Sequences/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathsConstants/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/mersenne.py">
+    <entry file="file://$PROJECT_DIR$/Sequences/mersenne.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/fibonacci.py">
+    <entry file="file://$PROJECT_DIR$/Sequences/sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="271">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequences/lucas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
