@@ -7,6 +7,7 @@
 # Martin Luckett 2019
 
 from decimal import *
+from Sequences.fibonacci import Fibonacci
 
 
 def phi(precision=20):
@@ -16,9 +17,19 @@ def phi(precision=20):
     return result
 
 
+def gr_fibonacci(n, precision):
+    fib = Fibonacci()
+    result = fib.ratio_at_nth_term(n, precision)
+    return result
+
+
 def main():
-    gr = phi(1000)
+    gr = phi(100)
     print(gr)
+    res = gr_fibonacci(n=100, precision=100)
+    print(res)
+    diff = res - gr
+    print(diff / gr * 100, "%")
 
 
 if __name__ == "__main__":

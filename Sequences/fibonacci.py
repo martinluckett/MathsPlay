@@ -6,28 +6,12 @@
 # F(0) = 0, F(1) = 1
 # F(n) = F(n-1) + F(n-2), for n > 1
 #
-# Update: created generalised sequence generator and moved to sequence.py
-#
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Sequences.sequence import sequence
+from Sequences.sequence import Sequence
 
 
-def fibonacci(number_of_terms):
-    seq = sequence(number_of_terms, first_term=0, second_term=1)
-    return seq
-
-
-def main():
-    # Set the number of terms to be calculated
-    number_of_terms = 100
-
-    # Call the sequence function with the fibonacci parameters
-    f = fibonacci(number_of_terms)
-
-    print(f)
-
-
-if __name__ == "__main__":
-    main()
+class Fibonacci(Sequence):
+    def __init__(self):
+        super().__init__(first_term=0, second_term=1, name="Fibonacci")

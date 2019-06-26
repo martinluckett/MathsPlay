@@ -9,23 +9,11 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Sequences.sequence import sequence
+
+from Sequences.sequence import Sequence
 
 
-def lucas(number_of_terms):
-    seq = sequence(number_of_terms, first_term=2, second_term=1)
-    return seq
+class Lucas(Sequence):
+    def __init__(self):
+        super().__init__(first_term=2, second_term=1, name="Lucas")
 
-
-def main():
-    # Set the number of terms to be calculated
-    number_of_terms = 100
-
-    # Call the sequence function with the lucas parameters
-    f = lucas(number_of_terms)
-
-    print(f)
-
-
-if __name__ == "__main__":
-    main()
