@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0666f584-f37c-4704-9998-d5f2b318f8c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mathsConstants/MathsConstant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Euclid/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Euclid/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequences/sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequences/sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primes/coprime.py" beforeDir="false" afterPath="$PROJECT_DIR$/primes/coprime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,34 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="383">
+              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sequences/fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mathsConstants/goldenratio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#156#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sequences/sequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="338">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -143,8 +117,8 @@
         <option value="$PROJECT_DIR$/mathsConstants/goldenratio.py" />
         <option value="$PROJECT_DIR$/tests/constants_test.py" />
         <option value="$PROJECT_DIR$/mathsConstants/MathsConstant.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Sequences/sequence.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -392,7 +366,7 @@
       <workItem from="1561218008553" duration="89000" />
       <workItem from="1561218456355" duration="20096000" />
       <workItem from="1561584425846" duration="1000000" />
-      <workItem from="1561623103331" duration="758000" />
+      <workItem from="1561623103331" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="test update">
       <created>1559041594218</created>
@@ -660,11 +634,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561585096141</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="updated tests">
+      <created>1561623974153</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1561623974153</updated>
+    </task>
+    <task id="LOCAL-00040" summary="updated tests">
+      <created>1561624251235</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1561624251235</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65266000" />
+    <option name="totallyTimeSpent" value="67307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="45" width="1400" height="833" extended-state="0" />
@@ -761,7 +749,8 @@
     <MESSAGE value="Added coprime test" />
     <MESSAGE value="Added Pell numbers" />
     <MESSAGE value="Updated using classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated using classes" />
+    <MESSAGE value="updated tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MathsPlay$lucas.coverage" NAME="lucas Coverage Results" MODIFIED="1559284552537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -774,7 +763,7 @@
     <SUITE FILE_PATH="coverage/MathsPlay$experiment.coverage" NAME="experiment Coverage Results" MODIFIED="1561298838778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MathsPlay$gcd.coverage" NAME="gcd Coverage Results" MODIFIED="1561227341380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euclid" />
     <SUITE FILE_PATH="coverage/MathsPlay$sequence_tests.coverage" NAME="sequence-tests Coverage Results" MODIFIED="1561277165517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561623909452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MathsPlay$test.coverage" NAME="test Coverage Results" MODIFIED="1561625895528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -870,20 +859,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Sequences/sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sequences/sequence.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="383">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

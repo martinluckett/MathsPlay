@@ -29,18 +29,29 @@ def basic_tests():
 
 def sequence_tests():
     number_of_terms = 100
+    nth_term = 50
+    nth_term_str = "Term {n} of the {name} sequence is: {result}\n"
+    nth_term_ratio_str = "The ratio of consecutive terms at term {n} of the {name} sequence is: {result}\n"
 
     fib = Fibonacci()
     fib.output_sequence(number_of_terms)
+    print(nth_term_str.format(n=nth_term, name=fib.name, result=fib.nth_term(nth_term)))
+    print(nth_term_ratio_str.format(n=nth_term, name=fib.name, result=fib.ratio_at_nth_term(nth_term)))
 
     luc = Lucas()
     luc.output_sequence(number_of_terms)
+    print(nth_term_str.format(n=nth_term, name=luc.name, result=luc.nth_term(nth_term)))
+    print(nth_term_ratio_str.format(n=nth_term, name=luc.name, result=luc.ratio_at_nth_term(nth_term)))
 
     mer = Mersenne()
     mer.output_sequence(number_of_terms)
+    print(nth_term_str.format(n=nth_term, name=mer.name, result=mer.nth_term(nth_term)))
+    print(nth_term_ratio_str.format(n=nth_term, name=mer.name, result=mer.ratio_at_nth_term(nth_term)))
 
     pel = Pell()
     pel.output_sequence(number_of_terms)
+    print(nth_term_str.format(n=nth_term, name=pel.name, result=pel.nth_term(nth_term)))
+    print(nth_term_ratio_str.format(n=nth_term, name=pel.name, result=pel.ratio_at_nth_term(nth_term)))
 
 
 def main():
