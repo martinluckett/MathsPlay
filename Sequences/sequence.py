@@ -73,7 +73,8 @@ class Sequence:
         return result
 
     def output_sequence(self, number_of_terms=100):
-        print(self.seq)
+        print("The first {n} terms of the {name} sequence:".format(n=number_of_terms, name=self.name))
+        print(self.seq, "\n")
 
 
 
@@ -87,7 +88,7 @@ class Sequence:
 
 
 
-# seq_test_output_str = "The first {n} terms of the {name} sequence:\n"
+#
 # seq_test_number_terms = 100
 
 

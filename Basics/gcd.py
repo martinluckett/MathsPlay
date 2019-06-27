@@ -1,6 +1,6 @@
 # gcd.py
 #
-#  Greatest Common Divisor using Euclid's Algorithm
+#  Greatest Common Divisor using Basics's Algorithm
 #
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019

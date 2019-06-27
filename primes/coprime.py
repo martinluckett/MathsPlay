@@ -5,7 +5,7 @@
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 
-from Euclid.gcd import gcd_recursive
+from Basics.gcd import gcd_recursive
 
 
 def coprime(a, b):
