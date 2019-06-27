@@ -30,21 +30,17 @@ def basic_tests():
 def sequence_tests():
     number_of_terms = 100
 
-    f = Fibonacci()
-    f.generate_sequence(number_of_terms)
-    f.output_sequence(number_of_terms)
+    fib = Fibonacci()
+    fib.output_sequence(number_of_terms)
 
-    l = Lucas()
-    l.generate_sequence(number_of_terms)
-    l.output_sequence(number_of_terms)
+    luc = Lucas()
+    luc.output_sequence(number_of_terms)
 
-    m = Mersenne()
-    m.generate_sequence(number_of_terms)
-    m.output_sequence(number_of_terms)
+    mer = Mersenne()
+    mer.output_sequence(number_of_terms)
 
-    p = Pell()
-    p.generate_sequence(number_of_terms)
-    p.output_sequence(number_of_terms)
+    pel = Pell()
+    pel.output_sequence(number_of_terms)
 
 
 def main():

@@ -73,6 +73,9 @@ class Sequence:
         return result
 
     def output_sequence(self, number_of_terms=100):
+        if number_of_terms > len(self.seq):
+            self.generate_sequence(number_of_terms)
+
         print("The first {n} terms of the {name} sequence:".format(n=number_of_terms, name=self.name))
         print(self.seq, "\n")
 
