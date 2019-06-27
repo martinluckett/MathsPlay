@@ -79,19 +79,10 @@ class Sequence:
         print("The first {n} terms of the {name} sequence:".format(n=number_of_terms, name=self.name))
         print(self.seq, "\n")
 
-
-
-
-
-
-
-
-
-
-
-
-
-#
-# seq_test_number_terms = 100
-
+    def test(self, number_of_terms=100, nth_term=50):
+        nth_term_str = "Term {n} of the {name} sequence is: {result}\n"
+        nth_term_ratio_str = "The ratio of consecutive terms at term {n} of the {name} sequence is: {result}\n"
+        self.output_sequence(number_of_terms)
+        print(nth_term_str.format(n=nth_term, name=self.name, result=self.nth_term(nth_term)))
+        print(nth_term_ratio_str.format(n=nth_term, name=self.name, result=self.ratio_at_nth_term(nth_term)))
 
