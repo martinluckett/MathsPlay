@@ -1,4 +1,7 @@
 # MathsConstant Class
+#
+# https://github.com/martinluckett/MathsPlay
+# Martin Luckett 2019
 
 
 class MathsConstant:

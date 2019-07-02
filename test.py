@@ -1,4 +1,9 @@
-from mathsConstants.goldenratio import phi
+# tests.py
+#
+# https://github.com/martinluckett/MathsPlay
+# Martin Luckett 2019
+
+
 from Basics.gcd import gcd
 from Basics.gcd import gcd_recursive
 from primes.coprime import coprime
