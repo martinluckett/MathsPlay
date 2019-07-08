@@ -14,23 +14,19 @@ class Collatz:
         self.initial_number = initial_number
         self.name = "Collatz"
         self.seq = []
+        self.counter = 0
         self.generate_sequence(self.initial_number)
 
     def generate_sequence(self, a):
         while a != 1:
+            self.counter += 1
             self.seq.append(a)
             if a % 2 == 0:
-                a = a / 2
+                a = int(a / 2)
             else:
                 a = a * 3 + 1
+        self.seq.append(1)
 
 
 
-
-
-
-
-
-    def output_sequence(self):
-        pass
 

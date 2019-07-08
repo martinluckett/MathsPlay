@@ -11,6 +11,7 @@ from Sequences.fibonacci import Fibonacci
 from Sequences.lucas import Lucas
 from Sequences.mersenne import Mersenne
 from Sequences.pell import Pell
+from Sequences.collatz import Collatz
 
 
 def basic_tests():
@@ -47,6 +48,9 @@ def sequence_tests():
 
     pel = Pell()
     pel.test(number_of_terms, nth_term)
+
+    coll = Collatz(1000)
+    print("For n = {0} the Collatz sequence reaches 1 in {1} steps".format(coll.initial_number, coll.counter))
 
 
 def main():
