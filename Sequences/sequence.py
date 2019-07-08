@@ -21,7 +21,7 @@ class Sequence:
     def __init__(self, first_term, second_term, name="default",
                  multiplier_first_term=1, multiplier_second_term=1,
                  exponent_first_term=1, exponent_second_term=1,
-                 constant_factor=0):
+                 constant_factor=0, ratio_precision=20):
         self.first_term = first_term
         self.second_term = second_term
         self.name = name
@@ -30,6 +30,7 @@ class Sequence:
         self.exponent_first_term = exponent_first_term
         self.exponent_second_term = exponent_second_term
         self.constant_factor = constant_factor
+        self.ratio_precision = ratio_precision
 
         self.seq = []
 
@@ -62,11 +63,11 @@ class Sequence:
 
         return self.seq[nth_term]
 
-    def ratio_at_nth_term(self, n, precision=20):
+    def ratio_at_nth_term(self, n):
         if n > len(self.seq):
             self.generate_sequence(n)
 
-        getcontext().prec = precision
+        getcontext().prec = self.ratio_precision
         nth = Decimal(self.nth_term(n))
         previous_term = Decimal(self.nth_term(n-1))
         result = (nth / previous_term)
