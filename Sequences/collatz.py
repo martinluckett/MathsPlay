@@ -1,10 +1,10 @@
 # collatz.py
 #
-# If even a is divided by 2
-# If odd a is multiplied by 3 and add 1 (3n + 1)
+# If even, a is divided by 2
+# If odd, a is multiplied by 3 and add 1 (3n + 1)
 #
 # The Collatz conjecture is:
-# "The conjecture is that no matter what value of n, the sequence will always reach 1"
+# "...that no matter what value of n, the sequence will always reach 1"
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019
 

@@ -17,18 +17,3 @@ class Lucas(Sequence):
     def __init__(self):
         super().__init__(first_term=2, second_term=1, name="Lucas")
 
-    def generate_sequence(self, number_of_terms=100):
-        result = []
-        a = self.first_term
-        b = self.second_term
-
-        result.append(a)
-
-        while len(result) < number_of_terms + 1:
-            # add b to the list
-            result.append(b)
-            # new a = old b, new b = calculated term
-            a, b = b, a + b
-
-        self.seq = result
-
