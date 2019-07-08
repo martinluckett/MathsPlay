@@ -15,7 +15,7 @@ class Collatz:
         self.name = "Collatz"
         self.seq = []
         self.counter = 0
-        self.generate_sequence(self.initial_number)
+        self.generate_sequence(initial_number)
 
     def generate_sequence(self, a):
         while a != 1:
@@ -26,6 +26,11 @@ class Collatz:
             else:
                 a = a * 3 + 1
         self.seq.append(1)
+
+    def test(self):
+        coll_str = "For n = {n1}, the {name} sequence reaches 1 in {counter} steps\n\n" \
+                   "{name} Sequence starting from {n1}:\n{seq}\n"
+        print(coll_str.format(n1=self.initial_number, name=self.name, counter=self.counter, seq=self.seq))
 
 
 

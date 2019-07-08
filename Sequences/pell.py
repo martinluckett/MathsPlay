@@ -6,6 +6,7 @@
 
 from Sequences.sequence import Sequence
 
+
 class Pell(Sequence):
     def __init__(self):
         super().__init__(first_term=0, second_term=1, name="Pell",
