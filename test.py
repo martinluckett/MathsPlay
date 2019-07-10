@@ -7,11 +7,13 @@
 from Basics.gcd import gcd
 from Basics.gcd import gcd_recursive
 from primes.coprime import coprime
-from Sequences.fibonacci import Fibonacci
-from Sequences.lucas import Lucas
-from Sequences.mersenne import Mersenne
-from Sequences.pell import Pell
+from Sequences.sequence import fibonacci
+from Sequences.sequence import lucas
+from Sequences.sequence import mersenne
+from Sequences.sequence import pell
 from Sequences.collatz import Collatz
+from mathsConstants.goldenratio import gr_fibonacci
+from mathsConstants.goldenratio import phi
 
 
 def basic_tests():
@@ -39,28 +41,36 @@ def sequence_tests():
     number_of_terms = 100
     nth_term = 50
 
-    fib = Fibonacci()
-    fib.test(number_of_terms, nth_term)
+    fib = fibonacci(number_of_terms)
+    print("Fibonacci", fib)
 
-    luc = Lucas()
-    luc.test(number_of_terms, nth_term)
+    luc = lucas(number_of_terms)
+    print("Lucas", luc)
 
-    mer = Mersenne()
-    mer.test(number_of_terms, nth_term)
+    mer = mersenne(number_of_terms)
+    print("Mersenne", mer)
 
-    pel = Pell()
-    pel.test(number_of_terms, nth_term)
+    pel = pell(number_of_terms)
+    print("Pell", pel)
 
-    coll = Collatz(100)
-    coll.test()
 
-    coll = Collatz(1000)
-    coll.test()
+def golden_ratio_test():
+    precision = 20
+
+    gr = phi(precision)
+
+    number_of_terms = 100
+    gr_fib = gr_fibonacci(number_of_terms, precision)
+
+    print("\nGolden Ratio\n")
+    print("Algebraic\n", gr)
+    print("Using Fibonacci Sequence\n", gr_fib)
 
 
 def main():
     basic_tests()
     sequence_tests()
+    golden_ratio_test()
 
 
 if __name__ == "__main__":

@@ -17,73 +17,103 @@
 from decimal import *
 
 
-class Sequence:
-    def __init__(self, first_term, second_term, name="default",
-                 multiplier_first_term=1, multiplier_second_term=1,
-                 exponent_first_term=1, exponent_second_term=1,
-                 constant_factor=0, ratio_precision=20):
-        self.first_term = first_term
-        self.second_term = second_term
-        self.name = name
-        self.multiplier_first_term = multiplier_first_term
-        self.multiplier_second_term = multiplier_second_term
-        self.exponent_first_term = exponent_first_term
-        self.exponent_second_term = exponent_second_term
-        self.constant_factor = constant_factor
-        self.ratio_precision = ratio_precision
+def sequence(number_of_terms, first_term=0, second_term=1,
+             multiplier_first_term=1, multiplier_second_term=1,
+             exponent_first_term=1, exponent_second_term=1,
+             constant_factor=0):
 
-        self.seq = []
+    result = []
 
-    def generate_sequence(self, number_of_terms=100):
+    a = first_term
+    b = second_term
+    c = multiplier_first_term
+    d = multiplier_second_term
+    e = exponent_first_term
+    f = exponent_second_term
+    g = constant_factor
 
-        result = []
-        a = self.first_term
-        b = self.second_term
-        c = self.multiplier_first_term
-        d = self.multiplier_second_term
-        e = self.exponent_first_term
-        f = self.exponent_second_term
-        g = self.constant_factor
+    # print(a,b, c, d, e, f, g)
 
-        # add the first term
-        result.append(a)
+    # add the first term
+    result.append(a)
 
-        # generate the sequence
-        while len(result) < number_of_terms + 1:
-            # add b to the list
-            result.append(b)
-            # new a = old b, new b = calculated term
-            a, b = b, (c * (a ** e)) + (d * (b ** f)) + g
+    # generate the sequence
+    while len(result) < number_of_terms + 1:
+        result.append(b)
 
-        self.seq = result
+        # new a = old b, new b = calculated term
+        a, b = b, (c * (a ** e)) + (d * (b ** f)) + g
 
-    def nth_term(self, nth_term):
-        if nth_term > len(self.seq):
-            self.generate_sequence(nth_term)
+    return result
 
-        return self.seq[nth_term]
 
-    def ratio_at_nth_term(self, n):
-        if n > len(self.seq):
-            self.generate_sequence(n)
+def ratio_at_final_term(seq, precision=20):
+    n = len(seq)
+    getcontext().prec = precision
+    final_term = Decimal(seq[n-1])
+    previous_term = Decimal(seq[n-2])
+    result = (final_term / previous_term)
+    return result
 
-        getcontext().prec = self.ratio_precision
-        nth = Decimal(self.nth_term(n))
-        previous_term = Decimal(self.nth_term(n-1))
-        result = (nth / previous_term)
-        return result
 
-    def output_sequence(self, number_of_terms=100):
-        if number_of_terms > len(self.seq):
-            self.generate_sequence(number_of_terms)
+def fibonacci(number_of_terms=100):
+    first_term = 0
+    second_term = 1
 
-        print("The first {n} terms of the {name} sequence:".format(n=number_of_terms, name=self.name))
-        print(self.seq, "\n")
+    result = sequence(number_of_terms, first_term, second_term)
 
-    def test(self, number_of_terms=100, nth_term=50):
-        nth_term_str = "Term {n} of the {name} sequence is: {result}\n"
-        nth_term_ratio_str = "The ratio of consecutive terms at term {n} of the {name} sequence is: {result}\n"
-        self.output_sequence(number_of_terms)
-        print(nth_term_str.format(n=nth_term, name=self.name, result=self.nth_term(nth_term)))
-        print(nth_term_ratio_str.format(n=nth_term, name=self.name, result=self.ratio_at_nth_term(nth_term)))
+    return result
 
+
+def lucas(number_of_terms=100):
+    first_term = 2
+    second_term = 1
+
+    result = sequence(number_of_terms, first_term, second_term)
+
+    return result
+
+
+def mersenne(number_of_terms=100):
+    first_term = 0
+    second_term = 1
+    multiplier_first_term = 0
+    multiplier_second_term = 2
+    cf = 1
+
+    result = sequence(number_of_terms, first_term, second_term,
+                      multiplier_first_term, multiplier_second_term, constant_factor=cf)
+
+    return result
+
+
+def pell(number_of_terms=100):
+    first_term = 0
+    second_term = 1
+    multiplier_first_term = 1
+    multiplier_second_term = 2
+
+    result = sequence(number_of_terms, first_term, second_term,
+                      multiplier_first_term, multiplier_second_term)
+
+    return result
+
+
+def test():
+    number_of_terms = 100
+
+    fib = fibonacci(number_of_terms)
+    print("Fibonacci", fib)
+
+    luc = lucas(number_of_terms)
+    print("Lucas", luc)
+
+    mer = mersenne(number_of_terms)
+    print("Mersenne", mer)
+
+    pel = pell(number_of_terms)
+    print("Pell", pel)
+
+
+if __name__ == "__main__":
+    test()
