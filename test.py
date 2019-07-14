@@ -67,7 +67,7 @@ def golden_ratio_test():
 
     print("\nGolden Ratio\n")
     print("Algebraic\n", gr)
-    print("Using Fibonacci Sequence\n", gr_fib)
+    print("Using {0} terms of the Fibonacci Sequence\n {1}".format(number_of_terms, gr_fib))
 
 
 def main():
