@@ -2,7 +2,7 @@
 #
 #  n items, choose k
 #  choose k items from a set of n
-#  number of items = n! / (k! * (n-k)!)
+#  number of combinations = n! / (k! * (n-k)!)
 #
 # https://github.com/martinluckett/MathsPlay
 # Martin Luckett 2019

@@ -14,7 +14,7 @@ from Sequences.pell import pell
 from Sequences.collatz import collatz
 from mathsConstants.goldenratio import gr_fibonacci
 from mathsConstants.goldenratio import phi
-from Basics.nCk import nCk
+from Combinatorics.nCk import nCk
 
 
 def basic_tests():
