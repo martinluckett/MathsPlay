@@ -11,7 +11,7 @@ from Sequences.fibonnaci import fibonacci
 from Sequences.lucas import lucas
 from Sequences.mersenne import mersenne
 from Sequences.pell import pell
-from Sequences.collatz import Collatz
+from Sequences.collatz import collatz
 from mathsConstants.goldenratio import gr_fibonacci
 from mathsConstants.goldenratio import phi
 
@@ -51,6 +51,10 @@ def sequence_tests():
 
     pel = pell(number_of_terms)
     print("Pell", pel)
+
+    n = 100
+    col = collatz(n)
+    print("Collatz: {0} reached 1 in {1} steps".format(n, col))
 
 
 def golden_ratio_test():
