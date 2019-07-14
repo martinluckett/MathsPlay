@@ -9,28 +9,33 @@
 # Martin Luckett 2019
 
 
-class Collatz:
-    def __init__(self, initial_number):
-        self.initial_number = initial_number
-        self.name = "Collatz"
-        self.seq = []
-        self.counter = 0
-        self.generate_sequence(initial_number)
+def collatz(number, max_iterations=10000):
 
-    def generate_sequence(self, a):
-        while a != 1:
-            self.counter += 1
-            self.seq.append(a)
-            if a % 2 == 0:
-                a = int(a / 2)
-            else:
-                a = a * 3 + 1
-        self.seq.append(1)
+    a = number
+    counter = 0
 
-    def test(self):
-        coll_str = "For n = {n1}, the {name} sequence reaches 1 in {counter} steps\n\n" \
-                   "{name} Sequence starting from {n1}:\n{seq}\n"
-        print(coll_str.format(n1=self.initial_number, name=self.name, counter=self.counter, seq=self.seq))
+    while a != 1 and counter < max_iterations:
+        counter += 1
+        if a % 2 == 0:
+            a = int(a/2)
+        else:
+            a = a * 3 + 1
+
+    if counter < max_iterations:
+        return counter
+    else:
+        return "Maximum iteration limit reached"
+
+
+def test():
+    n = 100
+    col = collatz(number=n, max_iterations=1000)
+    print("Collatz: {0} reached 1 in {1} steps".format(n, col))
+
+
+if __name__ == "__main__":
+    test()
+
 
 
 
