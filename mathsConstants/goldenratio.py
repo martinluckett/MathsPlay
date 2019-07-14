@@ -7,7 +7,7 @@
 # Martin Luckett 2019
 
 from decimal import *
-from Sequences.sequence import fibonacci
+from Sequences.fibonnaci import fibonacci
 from Sequences.sequence import ratio_at_final_term
 
 

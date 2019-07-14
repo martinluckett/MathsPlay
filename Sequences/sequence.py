@@ -19,8 +19,7 @@ from decimal import *
 
 def sequence(number_of_terms, first_term=0, second_term=1,
              multiplier_first_term=1, multiplier_second_term=1,
-             exponent_first_term=1, exponent_second_term=1,
-             constant_factor=0):
+             exponent_first_term=1, exponent_second_term=1, constant_factor=0):
 
     result = []
 
@@ -56,63 +55,8 @@ def ratio_at_final_term(seq, precision=20):
     return result
 
 
-def fibonacci(number_of_terms=100):
-    first_term = 0
-    second_term = 1
-
-    result = sequence(number_of_terms, first_term, second_term)
-
-    return result
-
-
-def lucas(number_of_terms=100):
-    first_term = 2
-    second_term = 1
-
-    result = sequence(number_of_terms, first_term, second_term)
-
-    return result
-
-
-def mersenne(number_of_terms=100):
-    first_term = 0
-    second_term = 1
-    multiplier_first_term = 0
-    multiplier_second_term = 2
-    cf = 1
-
-    result = sequence(number_of_terms, first_term, second_term,
-                      multiplier_first_term, multiplier_second_term, constant_factor=cf)
-
-    return result
-
-
-def pell(number_of_terms=100):
-    first_term = 0
-    second_term = 1
-    multiplier_first_term = 1
-    multiplier_second_term = 2
-
-    result = sequence(number_of_terms, first_term, second_term,
-                      multiplier_first_term, multiplier_second_term)
-
-    return result
-
-
 def test():
-    number_of_terms = 100
-
-    fib = fibonacci(number_of_terms)
-    print("Fibonacci", fib)
-
-    luc = lucas(number_of_terms)
-    print("Lucas", luc)
-
-    mer = mersenne(number_of_terms)
-    print("Mersenne", mer)
-
-    pel = pell(number_of_terms)
-    print("Pell", pel)
+    pass
 
 
 if __name__ == "__main__":

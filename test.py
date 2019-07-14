@@ -7,10 +7,10 @@
 from Basics.gcd import gcd
 from Basics.gcd import gcd_recursive
 from primes.coprime import coprime
-from Sequences.sequence import fibonacci
-from Sequences.sequence import lucas
-from Sequences.sequence import mersenne
-from Sequences.sequence import pell
+from Sequences.fibonnaci import fibonacci
+from Sequences.lucas import lucas
+from Sequences.mersenne import mersenne
+from Sequences.pell import pell
 from Sequences.collatz import Collatz
 from mathsConstants.goldenratio import gr_fibonacci
 from mathsConstants.goldenratio import phi
@@ -39,7 +39,6 @@ def basic_tests():
 
 def sequence_tests():
     number_of_terms = 100
-    nth_term = 50
 
     fib = fibonacci(number_of_terms)
     print("Fibonacci", fib)
@@ -55,7 +54,7 @@ def sequence_tests():
 
 
 def golden_ratio_test():
-    precision = 20
+    precision = 50
 
     gr = phi(precision)
 
