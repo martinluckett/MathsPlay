@@ -14,6 +14,7 @@ from Sequences.pell import pell
 from Sequences.collatz import collatz
 from mathsConstants.goldenratio import gr_fibonacci
 from mathsConstants.goldenratio import phi
+from Basics.nCk import nCk
 
 
 def basic_tests():
@@ -35,6 +36,11 @@ def basic_tests():
 
     coprime_str = "{n1} and {n2} are coprime is: {result}\n"
     print(coprime_str.format(n1=6, n2=35, result=coprime(6, 35)))
+
+    # n items, choose k
+    # Example choose 5 from a set of 52 items
+
+    print("There are {result} ways of choosing {k} items from a set of {n}\n".format(result=nCk(52, 5), k=5, n=52))
 
 
 def sequence_tests():
